@@ -11,16 +11,21 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "Alifuddin Zulkifli - Fullstack Developer",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Fullstack Web Developer and Software Developer, sometimes games developer.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Alifuddin Zulkifli",
   keywords: [
     "freelance",
     "developer",
     "freelance developer",
     "frontend",
+    "web developer",
+    "fullstack developer",
+    "software developer",
+    "backend engineer",
+    "software engineer",
     "react",
     "frontend developer",
     "frontend engineer",
@@ -28,26 +33,35 @@ export const metadata: Metadata = {
     "creative developer",
     "creative engineer",
     "tech",
-    "nigeria",
+    "Malaysia",
     "software",
     "software developer",
     "portfolio",
     "frontend developer portfolio",
     "creative developer portfolio",
+    "fullstack developer portfolio",
+    "software developer portfolio",
+    "react developer portfolio",
+    "web developer portfolio",
+    "portfolio site",
+    "developer portfolio",
+    "web developer portfolio site",
+    "fullstack developer portfolio site",
+    "freelancer",
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "Alifuddin Zulkifli - Fullstack Developer",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+      "Fullstack Web Developer and Software Developer, sometimes games developer. Available to work and freelancing projects.",
+    url: "", //https://www.sitename.com
+    siteName: "", //www.sitename.com
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "Alifuddin Zulkifli - Fullstack Developer",
       },
     ],
     locale: "en-US",
@@ -55,13 +69,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "Alifuddin Zulkifli - Fullstack Developer",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "Fullstack Web Developer and Software Developer, sometimes games developer. Available to work and freelancing projects.",
+    creator: "Alifuddin",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "",
     ],
   },
   robots: {

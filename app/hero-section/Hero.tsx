@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/profile.png";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1CB3jrLeAUQPxkO1DXyVSs-GFXMQrRSSs/view"
+            href="https://mega.nz/folder/FKMhRQTT#kG_Enthkk2o0AugGCPI8iA"
             target="_blank"
             aria-label="View Resume"
           >
@@ -27,14 +27,14 @@ const Hero = () => {
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              VIEW RESUME
+              RESUME FOLDER
             </motion.button>
           </Link>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/xzaliff"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -42,11 +42,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
+              GitHub
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/alifuddindev/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,11 +54,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              Linkedn
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -66,7 +66,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              X
             </motion.p>
           </Link>
         </div>
@@ -77,7 +77,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="Alifuddin Zulkifli"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -87,8 +87,8 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="Fine boy"
+              alt="Alif profile"
+              data-blobity-tooltip="I found on Internet :)"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -106,15 +106,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, prev at{" "}
-            <Link
-              href="https://www.mono.co/"
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Crown Branding Agency Website"
-            >
-              Mono,
-            </Link> currently available for work.
+          Fullstack Web Developer and Software Developer, sometimes games developer.
           </p>
         </motion.div>
 
@@ -123,8 +115,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+          Available to work and freelancing projects, Remotely in Malaysia.
           </p>
         </motion.div>
       </div>
