@@ -7,13 +7,13 @@ export type blogProps = {
 };
 
 export const blogDetails = [
-  // {
-  //   title:
-  //     "",
-  //   image:
-  //     "",
-  //   date: "",
-  //   url: "",
-  //   available: false,
-  // },
+   {
+     title:
+       "hhuaaaaaaaaaaaaaaa",
+     image:
+       "",
+     date: "feb 2022",
+     url: "",
+    available: false,
+   },
 ];
