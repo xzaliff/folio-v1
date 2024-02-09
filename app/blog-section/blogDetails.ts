@@ -9,7 +9,7 @@ export type blogProps = {
 export const blogDetails = [
    {
      title:
-       "hhuaaaaaaaaaaaaaaa",
+       "Blog 1- Area under construction",
      image:
        "",
      date: "feb 2022",
